@@ -6,6 +6,7 @@ import br.com.alura.screenmatch.modelos.Episodio;
 import br.com.alura.screenmatch.modelos.Filme;
 import br.com.alura.screenmatch.modelos.Serie;
 import java.util.ArrayList;
+import java.util.Collections;
 
 
 public class Principal {
@@ -68,6 +69,9 @@ public class Principal {
         episodio.setTotalVizualizacoes(300);
         filtro.filtra(episodio);
         System.out.println();
+
+
+
 
 
     }
